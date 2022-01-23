@@ -1,0 +1,13 @@
+<template>
+  <div class="home">
+    <custom-text><h1>Movies</h1></custom-text>
+  </div>
+</template>
+
+<script>
+import CustomText from '../../components/CustomText.vue';
+export default {
+  name: "Movies",
+  components: {CustomText},
+};
+</script>
